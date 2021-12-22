@@ -1,13 +1,16 @@
+/* Adds specified indicators for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Adds specified indicators for elements within the body tag */
 body {
     background-color: #d9dcd6;
 }
 
+/* Targets elements with the given class and sets specific style properties */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* Targets elements within the given class and sets specific style properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,6 +90,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Targets multiple classes and sets specific style properties */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost
